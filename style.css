@@ -37,7 +37,8 @@ input[type="button"] {
   padding: 0.4em;
 }
 
-input[type="button"]:hover {
+input[type="button"]:hover,
+input[type="button"]:focus {
   margin-top: 1em;
   background-color: hsl(14, 100%, 79%);
   transform: translateY(-5%);
