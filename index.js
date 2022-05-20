@@ -18,7 +18,8 @@ function solveQuad() {
     let root1 = (-1 * coefficient.b + D ** 0.5) / (coefficient.a * 2); // the quadratic formula x = (-b +/- sqrt(D)) / 2a
     let root2 = (-1 * coefficient.b - D ** 0.5) / (coefficient.a * 2); // the quadratic formula x = (-b +/- sqrt(D)) / 2a
 
-    output.style.color = "hsl(0, 0%, 0%)"
+    output.style.color = "hsl(0, 0%, 0%)";
+    output.style.userSelect = "all";
 
     output.textContent =
       D > 0
