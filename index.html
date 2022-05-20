@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quadratic equation solver</title>
+  </head>
+  <body>
+    <h1>A UTILITY TO SOLVE QUADRATIC EQUATIONS</h1>
+    <h2>
+      ENTER YOUR EQUATION BELOW (GENERAL FORMULA &rArr;
+      <em>ax<sup>2</sup> + bx + c </em>):
+    </h2>
+
+    <form>
+      <input type="number" name="a" id="a" value="" />
+      <input type="number" name="b" id="b" value="" />
+      <input type="number" name="c" id="c" value="" />
+
+      <br>
+
+      <input type="button" value="Calculate" onclick="solveQuad()" />
+    </form>
+
+    <div id="root">The roots will appear here.</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
